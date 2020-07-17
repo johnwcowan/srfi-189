@@ -406,7 +406,7 @@ If an <em>expr</em> does not evaluate to a Maybe/Either,
 an error satisfying <code>error-object</code> is signaled.
 <p><code>(maybe-let* (</code> <em>claw</em> ... <code>) .</code> <em>body</em><code>)</code>&nbsp;&nbsp;[syntax]<br>
 <code>(either-let* (</code> <em>claw</em> ... <code>) .</code> <em>body</em><code>)</code>&nbsp;&nbsp;[syntax]</p>
-<p>The Maybe/Either equivalent of <code>and-let*</code> from
+<p>A loose Maybe/Either analogue of <code>and-let*</code> from
 <a href="http://srfi.schemers.org/srfi-2/srfi-2.html">SRFI 2</a>.
 However, instead of testing whether a <em>claw</em> is true or false,
 it tests whether it is Just/Right or Nothing/Left.
