@@ -216,7 +216,7 @@ of the container and not on the number of objects it contains.</p>
 <code>(either-remove</code> <em>pred either obj</em> ...<code>)</code></p>
 <p>If <em>maybe/either</em> is a Just/Right and the values of its payload
 satisfy / do not satisfy <em>pred</em>, then
-return <em>maybe</em>; otherwise, returns Nothing / a Left of <em>objs</em>.</p>
+return <em>maybe/either</em>; otherwise, returns Nothing / a Left of <em>objs</em>.</p>
 <p><code>(maybe-sequence</code> <em>mappable map [aggregator]</em><code>)</code><br>
 <code>(either-sequence</code> <em>mappable map [aggregator]</em><code>)</code></p>
 <p>The purpose of these procedures is to transform a
